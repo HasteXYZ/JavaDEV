@@ -1,0 +1,17 @@
+Calculadora de viagem
+
+1 - Obter a distância percorrida na viagem em KM;
+2 - Obter o consumo do transporte(carro) em KM/L;
+3 - Obter o preço do combustível;
+4 - Calcular quantos litros foram gastos: Distancia percorrida x Preço do Combustivel
+5 - Calcular o custo total = quantidade de litros X Preço do combustivel
+
+PseudoCódigo
+
+1- DistanciaPercorrida = Obter do Usuário(KM);
+2- ConsumoTransporte = Obter do Usuário(KM/L);
+3- PrecoCombustivel = Obter do Usuário(R$);
+4- QuantidadeLitrosCombustivel =
+   DistanciaPercorrida/consumoTransporte;
+5- custoTotal+quantidadeLitrosCombustivel
+   *DistanciaPercorrida*PreçodaGasolina/LitroPorkm+PreçodoPedagio;

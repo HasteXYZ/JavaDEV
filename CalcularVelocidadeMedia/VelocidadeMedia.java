@@ -5,7 +5,7 @@ public class VelocidadeMedia {
         int distanciaPercorrida = 150;
         int tempoGasto = 2;
         double VelocidadeMedia = distanciaPercorrida/tempoGasto
-        System.out.println("A Velocidade Media é ")
+        System.out.println("A Velocidade Media é")
         +VelocidadeMedia+"KM/H"
     }
 }

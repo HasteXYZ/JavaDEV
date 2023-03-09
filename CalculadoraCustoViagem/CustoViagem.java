@@ -3,7 +3,7 @@ package CalculadoraCustoViagem;
 /**
  * CalculandoDistanciaDeCidades
  */
-public class CalculandoDistanciaDeCidades {
+public class CalculandoDistanciaDeCidades{}
 
     public class tempoeDistân {
 

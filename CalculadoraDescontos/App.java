@@ -1,11 +1,11 @@
-package CalculadoraDescontos;
+package CalculadoraDeDescontos;
 
-/**
- * App
- */
+import CalcularVelocidadeMedia.CalcularVelocidadeMedia;
+
 public class App {
-public static void main(String[] args) {
-    
-}
-    
+    public static void main(String[] args) {
+        CalcularDescontos cDescontos = new CalcularDescontos();
+        cDescontos.calcular();
+        cDescontos.calcular30();
+    }
 }

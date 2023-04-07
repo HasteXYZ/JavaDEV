@@ -5,7 +5,7 @@ package CalculadoraCustoViagem;
  */
 public class CalculandoDistanciaDeCidades{}
 
-    public class tempoeDistân {
+    public class CalculadoraCustoViagem {
 
         public static void main(String[] args) {
             System.out.println("===Custo de Viagem===");

@@ -65,18 +65,64 @@ public class ExemploFor {
             }
             Notas /= 4;
             vetorMedia[i] = Notas;
-        
+
         }
         for (int i = 0; i < vetorMedia.length; i++) {
-            if(vetorMedia[i]>7){
-            System.out.println("A média do aluno"+(i+1)+" é "+vetorMedia[i]);
-
-    
+            if (vetorMedia[i] > 7) {
+                System.out.println("A média do aluno" + (i + 1) + " é " + vetorMedia[i]);
             }
         }
     }
+
     public void exemplo6() {
-        int vetor = 
+
+        Scanner input = new Scanner(System.in);
+        double[] medias = new double[10];
+        int count = 0;
+
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Digite as quatro notas do aluno " + (i + 1) + ": ");
+            double nota1 = input.nextDouble();
+            double nota2 = input.nextDouble();
+            double nota3 = input.nextDouble();
+            double nota4 = input.nextDouble();
+
+            double media = (nota1 + nota2 + nota3 + nota4) / 4;
+            medias[i] = media;
+
+            if (media >= 7.0) {
+                count++;
+            }
+        }
+
+        System.out.println("Número de alunos com média maior ou igual a 7.0: " + count);
+    }
+
+    public void Exemplo7() {
+        
+
+        
+        int[] vetor = new int[5];
+        int soma = 0;
+        int multiplicacao = 1;
+
+        Scanner leitor = new Scanner(System.in);
+
+        for (int i = 0; i < vetor.length; i++) {
+            System.out.print("Digite o " + (i+1) + "o número: ");
+            vetor[i] = leitor.nextInt();
+
+            soma += vetor[i];
+            multiplicacao *= vetor[i];
+        }
+
+        System.out.print("Números digitados: ");
+        for (int i = 0; i < vetor.length; i++) {
+            System.out.print(vetor[i] + " ");
+        }
+
+        System.out.println("\nSoma: " + soma);
+        System.out.println("Multiplicação: " + multiplicacao);
     }
 }
 
